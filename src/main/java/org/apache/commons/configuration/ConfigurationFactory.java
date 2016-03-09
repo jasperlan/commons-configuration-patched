@@ -35,7 +35,7 @@ import org.apache.commons.digester.Substitutor;
 import org.apache.commons.digester.substitution.MultiVariableExpander;
 import org.apache.commons.digester.substitution.VariableSubstitutor;
 import org.apache.commons.digester.xmlrules.DigesterLoader;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.xml.sax.Attributes;

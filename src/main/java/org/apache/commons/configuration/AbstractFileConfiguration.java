@@ -33,7 +33,7 @@ import java.util.List;
 
 import org.apache.commons.configuration.reloading.InvariantReloadingStrategy;
 import org.apache.commons.configuration.reloading.ReloadingStrategy;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.LogFactory;
 
 /**

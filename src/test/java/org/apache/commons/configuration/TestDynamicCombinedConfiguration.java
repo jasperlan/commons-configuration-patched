@@ -30,7 +30,7 @@ import java.io.Reader;
 import java.io.Writer;
 
 import org.apache.commons.configuration.tree.xpath.XPathExpressionEngine;
-import org.apache.commons.lang.text.StrLookup;
+import org.apache.commons.lang3.text.StrLookup;
 import org.junit.Test;
 
 public class TestDynamicCombinedConfiguration

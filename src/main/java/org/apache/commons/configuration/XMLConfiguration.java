@@ -50,7 +50,7 @@ import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.configuration.resolver.DefaultEntityResolver;
 import org.apache.commons.configuration.resolver.EntityRegistry;
 import org.apache.commons.configuration.tree.ConfigurationNode;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Attr;
 import org.w3c.dom.CDATASection;

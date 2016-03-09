@@ -51,7 +51,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.configuration.reloading.FileChangedReloadingStrategy;
-import org.apache.commons.lang.SystemUtils;
+import org.apache.commons.lang3.SystemUtils;
 import org.junit.Before;
 import org.junit.Test;
 

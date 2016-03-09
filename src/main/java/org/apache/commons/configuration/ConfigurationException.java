@@ -17,8 +17,6 @@
 
 package org.apache.commons.configuration;
 
-import org.apache.commons.lang.exception.NestableException;
-
 /**
  * Any exception that occurs while initializing a Configuration
  * object.
@@ -26,7 +24,7 @@ import org.apache.commons.lang.exception.NestableException;
  * @author Eric Pugh
  * @version $Id: ConfigurationException.java 1208784 2011-11-30 21:13:18Z oheger $
  */
-public class ConfigurationException extends NestableException
+public class ConfigurationException extends Exception
 {
     /**
      * The serial version ID.

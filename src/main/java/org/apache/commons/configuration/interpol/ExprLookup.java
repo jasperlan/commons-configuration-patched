@@ -24,17 +24,17 @@ import org.apache.commons.jexl2.Expression;
 import org.apache.commons.jexl2.JexlContext;
 import org.apache.commons.jexl2.JexlEngine;
 import org.apache.commons.jexl2.MapContext;
-import org.apache.commons.lang.ClassUtils;
-import org.apache.commons.lang.StringUtils;
-import org.apache.commons.lang.text.StrLookup;
-import org.apache.commons.lang.text.StrSubstitutor;
+import org.apache.commons.lang3.ClassUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.text.StrLookup;
+import org.apache.commons.lang3.text.StrSubstitutor;
 
 /**
  * Lookup that allows expressions to be evaluated.
  *
  * <pre>
  *     ExprLookup.Variables vars = new ExprLookup.Variables();
- *     vars.add(new ExprLookup.Variable("String", org.apache.commons.lang.StringUtils.class));
+ *     vars.add(new ExprLookup.Variable("String", org.apache.commons.lang3.StringUtils.class));
  *     vars.add(new ExprLookup.Variable("Util", new Utility("Hello")));
  *     vars.add(new ExprLookup.Variable("System", "Class:java.lang.System"));
  *     XMLConfiguration config = new XMLConfiguration(TEST_FILE);

@@ -23,7 +23,7 @@ import java.awt.event.KeyEvent;
 import java.util.List;
 
 import org.apache.commons.configuration.interpol.ConfigurationInterpolator;
-import org.apache.commons.lang.text.StrLookup;
+import org.apache.commons.lang3.text.StrLookup;
 
 /**
  * A helper class that defines a bunch of tests related to variable

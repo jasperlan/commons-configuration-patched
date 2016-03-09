@@ -37,7 +37,7 @@ import org.apache.commons.configuration.tree.DefaultExpressionEngine;
 import org.apache.commons.configuration.tree.ExpressionEngine;
 import org.apache.commons.configuration.tree.NodeAddData;
 import org.apache.commons.configuration.tree.ViewNode;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * <p>A specialized configuration class that extends its base class by the
